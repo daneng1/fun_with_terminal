@@ -35,9 +35,12 @@ elif [ $choice = 3 ]; then
 elif [ $choice = 4 ]; then
   tput setaf 4
   figlet -c -f epic Sunshine and Roses
-else
+elif [ $choice = 5 ]; then
   tput setaf 2
   figlet -c -f lean Walking on Clouds
+else
+  tput setaf 1
+  figlet -c -f cyberlarge Directions can be tough to follow, please try again
 fi
 }
 
