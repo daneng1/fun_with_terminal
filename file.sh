@@ -5,15 +5,15 @@ tput bold
 tput cup 0 15
 echo Please tell me hopw your day is going
 tput cup 1 10
-echo 1 for terrible
+echo 1 - terrible
 tput cup 2 10
-echo 2 for not great
+echo 2 - not great
 tput cup 3 10
-echo 3 for so-so
+echo 3 - so-so
 tput cup 4 10
-echo 4 for fairly good but nothing special
+echo 4 - fairly good but nothing special
 tput cup 5 10
-echo 5 for amaziong, excellent
+echo 5 - amaziong, excellent
 
 tput bold
 tput cup 7 15
